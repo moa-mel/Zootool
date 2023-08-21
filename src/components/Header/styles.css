@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content:space-between
+}
+.head-h2{
+    font-size: 1.3rem;
+}
+.head-comp{
+    margin-top: 10px;
+    padding: 3px;
+    height: 30px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    color: #49397C;
+    background-color: #fff;
+}
+.head-sub{
+    display: flex;
+   padding: 0.3rem; 
+    column-gap: 10px;
+}
+.h-butt{
+    background-color: #F3F4F6;
+    border-radius: 6px;
+    border: 1px solid #F3F4F6;
+}
+.h-but{
+    background-color: #E1E1E1;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+}
