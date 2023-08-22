@@ -1,20 +1,14 @@
 import React from 'react'
 import './styles.css'
-import { useCountries } from 'use-react-countries'
+import USA from "../../images/18165.jpg"
+import Germany from "../../images/27101.jpg"
+import Netherlands from "../../images/27107.jpg"
+import India from "../../images/305271-P7U57F-958.jpg"
+import japan from "../../images/flag-japan(1).jpg"
+import other from "../../images/39644.jpg"
 
 const Signbehave = () => {
-  const { countries } = useCountries()
-
-  const countryOrder = ['United States', 'Germany', 'Netherlands', 'India', 'Japan', { name: 'Other', flag: '🌍' },]; // Country names in the desired order
-
-  // Create a map to associate country names with their data for quick lookup
-  const countryMap = new Map();
-  countries.forEach(country => {
-    countryMap.set(country.name, country);
-  });
-  // Retrieve countries in the order specified in countryOrder
-  const orderedCountries = countryOrder.map(countryName => countryMap.get(countryName));
-
+ 
   return (
     <div className='sign-behave'>
       <div className='signup'>
@@ -25,27 +19,33 @@ const Signbehave = () => {
             <p className='sign-p'>City</p>
           </div>
         </div>
-        <div className='yo'>
-          <div>
-          {orderedCountries.map(item => {
-            if (!item) return null; // Skip undefined items
-            const {
-              name,
-              emoji,
-            } = item;
-            return (
-              <div key={name} >
-                <p>
-                  {emoji} {name}
-                </p>
-                </div>
-            )
-          })}
-          <p>
-            🌍 Other
-          </p>     
+        <div >
+          <div className='qu-1'>
+             <img src={USA} alt='' className='img-1'/>
+             <p className='m-1'>United states</p>
           </div>
-          <div>
+          <div className='qu-2'>
+          <img src={Germany} alt='' className='img-2'/>
+          <p className='m-2'>Germany</p>
+          </div>
+          <div className='qu-3'>
+          <img src={Netherlands} alt='' className='img-3'/>
+          <p className='m-3'>Netherlands</p>
+          </div>
+          <div className='qu-4'>
+          <img src={India} alt='' className='img-4'/>
+          <p className='m-4'>India</p>
+          </div>
+          <div className='qu-5'>
+          <img src={japan} alt='' className='img-5'/>
+          <p className='m-5'>Japan</p>
+          </div>
+          <div className='qu-6'>
+          <img src={other} alt='' className='img-6'/>
+          <p className='m-6'>Other</p>
+          </div>
+
+          <div className='nums'>
           <p className='yo-1'>30,000</p>
           <p className='yo-2'>20.000</p>
           <p className='yo-3'>10,000</p>
