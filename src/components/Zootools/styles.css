@@ -69,3 +69,19 @@
 .yo{
     display: flex;
 }
+@media screen and (max-width: 1200px) {
+    .zootool{
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .zootool{
+      width: 100%;
+      height: 400px;
+    }
+    .zt-right{
+        margin-left: -145px;
+    }
+  }

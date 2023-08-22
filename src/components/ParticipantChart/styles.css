@@ -1,0 +1,34 @@
+.part-chart{
+  margin-top: -65px;
+}
+.custom-tooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+    .arrow {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border: 1px solid #ccc;
+      transform: rotate(45deg);
+      bottom: -5px;
+      left: 50%;
+      transform-origin: center bottom;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+  .part-chart{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .part-chart{
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -29,3 +29,16 @@
     border-radius: 6px;
     border: 1px solid #E1E1E1;
 }
+@media screen and (max-width: 1200px) {
+    .header{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 768px)
+    {
+         .header{
+            width: 100%;
+            margin-top: 0;
+         }
+    }

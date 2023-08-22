@@ -40,7 +40,7 @@ const UserBoard = () => {
           <h3 className='traf-h3'><b>Traffic</b></h3>
           <div className='traf-in'>
             <button className='trf-but'>Source</button>
-            <p className='u1-p'>City</p>
+            <p className='ut-p'>City</p>
           </div>
         </div>
         <div className='traf-1'>

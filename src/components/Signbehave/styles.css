@@ -216,3 +216,57 @@
 .yo-6{
     margin-left: 300px;
 }
+@media screen and (max-width: 1200px) {
+    .sign-behave{
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .sign-behave{
+      width: 90%;
+    }
+    .sign-in{
+        margin-left: -65px;
+    }
+    .yo-1{
+        margin-left: 215px;
+    }
+    .yo-2{
+        margin-left: 215px;
+    }
+    .yo-3{
+        margin-left: 215px;
+    }
+    .yo-4{
+        margin-left: 215px;
+    }
+    .yo-5{
+        margin-left: 215px;
+    }
+    .yo-6{
+        margin-left: 215px;
+    }
+    .beh-in{
+        margin-left: -65px;
+    }
+    .bh-1{
+        margin-left: 105px;
+    }
+    .bh-2{
+        margin-left: 240px;
+    }
+    .bh-3{
+        margin-left: 270px;
+    }
+    .bh-4{
+        margin-left: 280px;
+    }
+    .bh-5{
+        margin-left: 280px;
+    }
+    .bh-6{
+        margin-left: 287px;
+    }
+  }
