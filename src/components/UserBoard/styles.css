@@ -242,18 +242,54 @@
       width: 90%;
     }
     .u1-p{
-        margin-left: -126px;
+        margin-left: -136px;
     }
     .u2-p{
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .u3-p{
-        margin-left: 70px;
+        margin-left: 55px;
     }
     .u4-p{
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .u5-p{
-        margin-left: 79px;
+        margin-left: 69px;
+    }
+    .u1-p1{
+        margin-left: -45px;
+            }
+    .u2-p1{
+margin-left: 38px;
+    }
+    .u3-p1{
+        margin-left: 8px;
+    }
+    .u4-p1{
+        margin-left: 28px;
+    }
+    .u5-p1{
+        margin-left: 28px;
+    }
+    .traf-in{
+        margin-left: -65px;
+    }
+    .tf-1{
+        margin-left: 175px;
+    }
+    .tf-2{
+        margin-left: 195px;
+    }
+    .tf-3{
+        margin-left: 212px;
+    }
+    .tf-4{
+        margin-left: 235px;
+    }
+    .tf-5{
+        margin-left: 245px;
+    }
+    .tf-6{
+        margin-left: 255px;
     }
   }

@@ -219,7 +219,7 @@
 }
 .qu-1{
     display: flex;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 .qu-2{
     display: flex;
@@ -268,7 +268,7 @@
 }
 .m-1{
     margin-top: -3px;
-    margin-left: 18px;
+    margin-left: 12px;
 }
 .m-2{
     margin-top: -3px;
@@ -306,47 +306,47 @@
       width: 90%;
     }
     .sign-in{
-        margin-left: -65px;
+        margin-left: -145px;
     }
     .yo-1{
         margin-top: -205px;
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .yo-2{
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .yo-3{
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .yo-4{
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .yo-5{
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .yo-6{
-        margin-left: 215px;
+        margin-left: 145px;
     }
     .beh-in{
-        margin-left: -65px;
+        margin-left: -125px;
     }
     .bh-1{
-        margin-left: 105px;
+        margin-left: 45px;
     }
     .bh-2{
-        margin-left: 240px;
+        margin-left: 185px;
     }
     .bh-3{
-        margin-left: 270px;
+        margin-left: 220px;
     }
     .bh-4{
-        margin-left: 280px;
+        margin-left: 230px;
     }
     .bh-5{
-        margin-left: 280px;
+        margin-left: 235px;
     }
     .bh-6{
-        margin-left: 287px;
+        margin-left: 245px;
     }
     .img-1{
         width: 25px;

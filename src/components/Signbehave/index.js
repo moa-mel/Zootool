@@ -20,9 +20,11 @@ const Signbehave = () => {
           </div>
         </div>
         <div >
+          <div className='cg'>
           <div className='qu-1'>
              <img src={USA} alt='' className='img-1'/>
              <p className='m-1'>United states</p>
+          </div>
           </div>
           <div className='qu-2'>
           <img src={Germany} alt='' className='img-2'/>
@@ -47,9 +49,9 @@ const Signbehave = () => {
 
           <div className='nums'>
           <p className='yo-1'>30,000</p>
-          <p className='yo-2'>20.000</p>
+          <p className='yo-2'>20,000</p>
           <p className='yo-3'>10,000</p>
-          <p className='yo-4'>5.000</p>
+          <p className='yo-4'>5,000</p>
           <p className='yo-5'>3,000</p>
           <p className='yo-6'>2,000</p>
           </div>
@@ -75,7 +77,7 @@ const Signbehave = () => {
             <div className='cou-2'>
             <p className='c-2'>Germany</p>
             </div>
-            <p className='bh-2'>20.000</p>
+            <p className='bh-2'>20,000</p>
           </div>
           <div className='bhv-3'>
             <div className='cou-3'>
