@@ -34,6 +34,9 @@
     margin-top: -26px;
 }
 @media screen and (max-width: 1200px) {
+    .tool{
+        width: 100%;
+    }
     .tool-box{
       flex-direction: column;
     }
@@ -43,5 +46,8 @@
   @media screen and (max-width: 768px) {
     .tool-box{
       width: 100%;
+    }
+    .tool{
+        width: 100%;
     }
   }
