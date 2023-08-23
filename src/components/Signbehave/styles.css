@@ -306,47 +306,47 @@
       width: 90%;
     }
     .sign-in{
-        margin-left: -145px;
+        margin-left: -160px;
     }
     .yo-1{
         margin-top: -205px;
-        margin-left: 145px;
+        margin-left: 128px;
     }
     .yo-2{
-        margin-left: 145px;
+        margin-left: 128px;
     }
     .yo-3{
-        margin-left: 145px;
+        margin-left: 128px;
     }
     .yo-4{
-        margin-left: 145px;
+        margin-left: 130px;
     }
     .yo-5{
-        margin-left: 145px;
+        margin-left: 130px;
     }
     .yo-6{
-        margin-left: 145px;
+        margin-left: 130px;
     }
     .beh-in{
-        margin-left: -125px;
+        margin-left: -155px;
     }
     .bh-1{
-        margin-left: 45px;
+        margin-left: 10px;
     }
     .bh-2{
-        margin-left: 185px;
+        margin-left: 148px;
     }
     .bh-3{
-        margin-left: 220px;
+        margin-left: 180px;
     }
     .bh-4{
-        margin-left: 230px;
+        margin-left: 190px;
     }
     .bh-5{
-        margin-left: 235px;
+        margin-left: 195px;
     }
     .bh-6{
-        margin-left: 245px;
+        margin-left: 202px;
     }
     .img-1{
         width: 25px;
@@ -371,5 +371,8 @@
     .img-6{
         width: 25px;
         height: 20px;
+    }
+    .signup{
+      height: 320px;
     }
   }
